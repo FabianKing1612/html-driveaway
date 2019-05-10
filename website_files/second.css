@@ -1,0 +1,99 @@
+/*second - css*/
+body{
+    color: black;
+    background-color: white;
+}
+
+ol, ul {
+    font-family: cursive;
+    margin: 0;
+    padding: 20px 20px 0 0;
+    list-style: none;
+    font-style: italic;
+    text-align: center;
+}
+
+p,a,kbd {
+    margin-top: 0;
+    text-align: center;
+    display: block;
+}
+
+tr {
+    font-style: italic;
+}
+
+#TO-DO {
+    border: thin solid #000000;
+    padding-right: 1em;
+    float: left;
+    margin: 1.3em 1em 1em 0;
+}
+
+#TO-DO p {
+    text-align: right;
+}
+
+label {
+    font-style: italic;
+    float: left;
+    padding-right: 10px;
+    width: 200px;
+    text-align: right;
+}
+
+input, textarea {
+    width: 200px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.send {
+
+}
+
+.float-left {
+    float: left;
+    height: 320px;
+    background-color: lightgray;
+    width: 50%;
+    text-align: center;
+
+}
+
+.float-right {
+    float: right;
+    height: 320px;
+    background-color: lightseagreen;
+    width: 50%;
+    text-align: center;
+}
+
+.clear:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+#footer {
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.max-width {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+table {
+    text-align: center;
+    font-style: italic;
+    padding: 20px 20px 170px 20px;
+    width: 100%;
+}
+
+h1,h3 {
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+body {color: white; background-color: black; }
+p {color: white; font-size: 1em;}
+h3 {color: white; background-color: transparent;}
+h1 {color: white; background-color: transparent;}
+li {color: white; font-family: cursive;}
+tr {color: white; font-style: italic}
+
+#TO-DO {color: white; border-width: thin; border-style: solid; padding-right: 1em; float: left;
+margin-right: 1em; margin-top: 1.3em; margin-bottom: 1em;}
+
+#TO-DO p {color: white; font-family: "Arial Black"; text-align: right; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

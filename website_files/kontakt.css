@@ -1,0 +1,75 @@
+/*Contact*/
+body{
+    color: black;
+    background-color: white;
+}
+
+p, {
+    margin-top: 0;
+    text-align: center;
+    display: block;
+}
+
+tr {
+    font-style: italic;
+}
+
+label {
+    font-style: italic;
+    float: left;
+    padding-right: 10px;
+    width: 200px;
+    text-align: right;
+}
+
+input, textarea {
+    width: 200px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.send {
+
+}
+
+.float-left {
+    float: left;
+    height: 320px;
+    background-color: lightgray;
+    width: 50%;
+    text-align: center;
+
+}
+
+.float-right {
+    float: right;
+    height: 320px;
+    background-color: lightseagreen;
+    width: 50%;
+    text-align: center;
+}
+
+.clear:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+#footer {
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.max-width {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+table {
+    text-align: center;
+    font-style: italic;
+    padding: 20px 20px 170px 20px;
+    width: 100%;
+}

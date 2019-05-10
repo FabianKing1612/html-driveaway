@@ -1,0 +1,20 @@
+/*prices - css*/
+body{
+    color: black;
+    background-color: white;
+}
+
+p,{
+    margin-top: 0;
+    text-align: center;
+    display: block;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.max-width {
+    width: 1000px;
+    margin: 0 auto;
+}
