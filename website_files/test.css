@@ -35,6 +35,30 @@ div{
     background-color: deeppink;
 }
 
+.one2 {
+    background-color: darkred;
+}
+
+.second2 {
+    background-color: darkorange;
+}
+
+.third2 {
+    background-color: blue;
+}
+
+.fourth2 {
+    background-color: green;
+}
+
+.fifth2 {
+    background-color: darkmagenta;
+}
+
+.footer2 {
+    background-color: darkgoldenrod;
+}
+
 .float-left {
     float: left;
     height: 320px;
@@ -62,3 +86,15 @@ div{
     width: 1500px;
     margin: 0 auto;
 }
+.first {
+    background-color: blu;
+}
+span.first {
+    color: white;
+    background-color: black;
+}
+div.first {
+    color: black;
+}
+
+
