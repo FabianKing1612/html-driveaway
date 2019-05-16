@@ -61,7 +61,7 @@ div{
 
 .float-left {
     float: left;
-    height: 320px;
+    height: 300px;
     width: 33.3%;
 }
 
@@ -86,15 +86,12 @@ div{
     width: 1500px;
     margin: 0 auto;
 }
-.first {
-    background-color: blu;
-}
-span.first {
+
+.first .first {
     color: white;
     background-color: black;
 }
-div.first {
+
+.first {
     color: black;
 }
-
-
