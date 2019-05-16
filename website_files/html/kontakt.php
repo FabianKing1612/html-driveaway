@@ -1,15 +1,15 @@
 <?php
-$email=$_POST["absender"];
-$message=$_POST["nachricht"];
+$email = $_POST["absender"];
+$message = $_POST["nachricht"];
+$subject = $_POST["betreff"];
 
-$empfaenger = "fabian@scherp.de";
-$from = "From: Vorname Nachname<".$email.">";
-$betreff = "Kontaktanfrage";
+$recipient = "fabian@scherp.de";
+$from = "From: Vorname Nachname<" . $email . ">";
+$from .= "Content-type: text/html\r\n";
 
-$return=mail($empfaenger, $betreff, $message, $email);
-
-if ($return){
-    echo "Mail successfully sended";
-}else{
-    echo "Error 404";
+if (($message != "") && ($subject != "") && ($recipient != "")){
+    echo "Successfully send";
+    mail($recipient, $subject, $message, $email);
+} else {
+    echo "The textarea with the name \"Ihre Nachricht\" is empty";
 }
